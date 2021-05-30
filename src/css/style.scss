@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+# Variables (Colors, Fonts, sizes)
+--------------------------------------------------------------*/
+@import "fonts";
+@import "variables";
+
+/*--------------------------------------------------------------
+# Normalize & Print
+--------------------------------------------------------------*/
+@import "normalize";
+@import "print";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+/**Optionally add Bootstrap to your project**/
+@import "~tailwindcss/base";
+
+@import "~tailwindcss/components";
+
+@import "~tailwindcss/utilities";
+@import "app";
+@import "calendar";
+@import "header";
+@import "title";
+
+/*--------------------------------------------------------------
+# Responsive Bug Fixes
+--------------------------------------------------------------*/
+@import "media";

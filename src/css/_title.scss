@@ -1,0 +1,21 @@
+.c-title {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation: moveIn .8s ease-in;
+  font-size: 48px;
+  font-weight: 600;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+@keyframes moveIn {
+  0% {
+    opacity: 0;
+    transform: translate(-50%,50%);
+
+  }
+  100% {
+    transform: translate(-50%,-50%);
+  }
+}

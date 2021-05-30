@@ -1,0 +1,70 @@
+/*
+ *******************
+ * PAGE MAIN STYLE *
+ *******************
+*/
+
+body {
+  background: $themeColor-Light;
+  user-select: none;
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+main {
+  h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 200px;
+  }
+}
+
+/* HEADER */
+
+header {
+  display: inline-block;
+  width: 100%;
+  background: #ccc;
+
+  nav {
+    float: right;
+
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
+
+/* EXAMPLE SECTION */
+
+section.example {
+  width: 100%;
+
+  .cards {
+    display: inline-block;
+    margin-bottom: -4px;
+  }
+
+  article {
+    float: left;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  display: block;
+  width: 100%;
+}
